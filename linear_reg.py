@@ -14,6 +14,9 @@ class regression:
         pass
     def update_weights(self):
         pass
+    def backward(self):
+        pass 
+    
 
 
 
