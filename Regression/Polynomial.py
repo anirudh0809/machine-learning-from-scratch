@@ -47,7 +47,7 @@ class polynonial_regression:
 
         err = h - Y
 
-        return ()
+        return (1/(2*m))*np.sum(err**2)
 
 if __name__ == '__main__':
     generate_pts(20,50,1000)
